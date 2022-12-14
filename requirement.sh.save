@@ -1,0 +1,15 @@
+echo -e "\n==========| Updating depedencies |==========" 
+sudo apt update -y > /dev/null &> /dev/null 
+sudo apt upgrade -y  > /dev/null &> /dev/null 
+sudo apt install unzip -y > /dev/null &> /dev/null  
+sudo apt install toilet -y > /dev/null &> /dev/null 
+echo -e "\n==========| Checking for updates |=========="  
+sudo rm -rf requirements > /dev/null &> /dev/null  
+
+
+echo -e "\n==========| Allow required port |==========" 
+
+echo -e "\n==========| Starting required service |==========" 
+apt install lolcat -y > /dev/null &> /dev/null
+apt install neofetch -y   > /dev/null &> /dev/null 
+echo -e "\n==========INSTALLATION SUCCESFULL !!========== \n run ./nodeinstall.sh"  ;
